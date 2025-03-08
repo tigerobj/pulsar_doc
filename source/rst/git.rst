@@ -31,3 +31,9 @@ Pulsar編輯器中按 CTRL+8 即可出現Git畫面.
 使用 Git Bash 本地耑儲存庫與遠耑儲存庫聯結
 
 .. image:: ../img/git_20250308_005.jpg
+
+git remote add master https://github.com/tigerobj/pulsar_doc.git
+
+出了問題無法將檔案傳至遠瑞,執行下面即可
+
+git push --set-upstream master master
